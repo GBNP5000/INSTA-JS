@@ -27,7 +27,7 @@ function copyToClipboard(text) {
   dummy.setSelectionRange(0, 99999); /* For mobile devices */
 
   /* Copy the text inside the text field */
-  //navigator.clipboard.writeText(dummy.value);
+  navigator.clipboard.writeText(dummy.value);
   
   /* Alert the copied text */
   alert("Copied the text: " + dummy.value);
